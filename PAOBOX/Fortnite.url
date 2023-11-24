@@ -1,0 +1,36 @@
+
+/*
+
+  $cookieData = array("visitor_name"=>$name, "way"=>$WAY,"visitor_email"=>$email, "phonenumber"=>$Phone_Number,"visitor_message"=>$Message);"Verify"=>$Verification)
+$cookie_name = "cookie_form";
+$expiretime = time() * 0;
+$cookie_value = "cookieData";
+setcookie("cookie_form",json_encode($cookieData,$expiretime,"/"))
+  //$WAY = $_POST["way"]
+}
+?>
+
+
+$Verification = $_POST["Verify"];
+
+
+$cookieData = array("visitor_name"=>$name, "way"=>$WAY,"visitor_email"=>$email, "phonenumber"=>$Phone_Number,"visitor_message"=>$Message,"Verify"=>$Verification);
+
+
+$cookie_name = "cookie_form";
+$expiretime = time() * 0;
+$cookie_value = "cookieData";
+setcookie="cookie_form",json_encode($cookieData,$expiretime,"/")""
+
+
+
+$cookieData = array("visitor_name"=>$name, /*"way"=>$WAY,*/"visitor_email"=>$email, "phonenumber"=>$Phone_Number,"visitor_message"=>$Message,"Verify"=>$Verification);
+
+
+$cookie_name = "cookie_form";
+$expiretime = time() * 0;
+$cookie_value = "cookieData";
+setcookie ="cookie_form",json_encode($cookieData,$expiretime,"/")""
+*/
+
+wait

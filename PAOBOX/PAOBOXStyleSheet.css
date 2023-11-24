@@ -1,0 +1,148 @@
+body{
+    background-image: url("abstract-gradient-background-.jpg");
+}
+
+.error {color:#FF0000;}
+
+
+.PAOBOXLogo {
+    font-family: arial, verdana, sans-serif;
+    font-size: 12pt;
+    color: #04040a;
+    border-style: solid;
+    background-color: lightskyblue;
+    position: right; right: 20px;
+}
+
+.Tabs {
+    border-style: solid;
+    background-color: grey;
+    margin: 5%;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 25px 0;
+    border-radius: 25px;
+    border: 0.1px solid #099fff;
+    box-shadow: 0 4px 8px 0 #00FFFF, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Tabs a {
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.Tabs a:after{
+    display: block;
+}
+.Tabs a:hover:after{
+    transform: scaleX(1);
+}
+
+.ContactUs {
+    border-style: solid;
+    width: 250px;
+    padding: 48px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.Form {
+    border-style: solid;
+    width: 800px;
+    
+}
+
+.name_q {
+    border-style: solid;
+    background-color: white;
+    length: 40px;
+    width: 75px;
+    padding: 15px;
+    border-collapse: separate;
+    border-spacing: 15px; 
+    left: 45px;
+    nav-down: 45px;
+}
+
+.name_q input{
+    width: 150;
+    position:relative;left: 150px;
+    border-collapse: separate;
+    border-spacing: 15px;
+    padding: 10px;
+}
+
+.status_q {
+    border-style: solid;
+    background-color: white;
+    length: 50px;
+    width: 75px;
+    padding: 15px;
+    border-collapse: separate;
+    border-spacing: 15px; 
+}
+
+
+
+
+
+.email_q {
+    border-style: solid;
+    background-color: white;
+    width: 100px;
+    border-style: solid;
+    background-color: white;
+    border-collapse: separate;
+    border-spacing: 15px;
+    padding: 10px;
+
+}
+
+.email_q input{
+    width: 150;
+    position:relative;left: 150px;
+    border-collapse: separate;
+    border-spacing: 15px;
+    padding: 10px;
+}
+
+.phonenumber_q{
+    border-style: solid;
+    background-color: white;
+    width: 100px;
+    border-style: solid;
+    background-color: white;
+    border-collapse: separate;
+    border-spacing: 15px;
+    padding: 10px;
+}
+
+.phonenumber_q input{
+    width: 150;
+    position:relative;left: 150px;
+    border-collapse: separate;
+    border-spacing: 15px;
+    padding: 10px;
+}
+
+.message_q {
+    border-style: solid;
+    background-color: white;
+    width: 300px;
+    border-style: solid;
+    background-color: white;
+    border-collapse: separate;
+    border-spacing: 15px;
+    padding: 10px;
+}
+.verify_cb {
+    border-style: solid;
+    background-color: white;
+    width: 200px;
+
+}
+
